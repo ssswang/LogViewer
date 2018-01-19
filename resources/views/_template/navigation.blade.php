@@ -7,8 +7,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">
-                <i class="fa fa-fw fa-book"></i> LogViewer
+            <a href="{{config("app.url")}}" class="navbar-brand">
+                <i class="fa fa-fw fa-book"></i> {{config("app.name")}}
             </a>
         </div>
         <div class="collapse navbar-collapse" id="navbar">
