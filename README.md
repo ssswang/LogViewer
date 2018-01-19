@@ -1,4 +1,4 @@
-# LogViewer [![Packagist License][badge_license]](LICENSE.md) [![For Laravel 5][badge_laravel]][link-github-repo]
+# LogViewer 
 
 
 This package allows you to manage and keep track of each one of your logs files.
