@@ -62,7 +62,7 @@ class LogViewerController extends Controller
      *
      * @return \Illuminate\View\View
      */
-    public function index()
+    public function index(Request $request)
     {
         $stats   = $this->logViewer->statsTable();
         $headers = $stats->header();
