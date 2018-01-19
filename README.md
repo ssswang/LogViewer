@@ -7,7 +7,7 @@ This package allows you to manage and keep track of each one of your logs files.
 
 Official documentation for LogViewer can be found at the [_docs folder](_docs/0.Home.md).
 
-Feel free to check out the [releases](https://github.com/ARCANEDEV/LogViewer/releases), [license](LICENSE.md), and [contribution guidelines](CONTRIBUTING.md).
+Feel free to check out the [releases](https://github.com/ARCANEDEV/LogViewer/releases), [license](LICENSE.md)
 
 ## Features
 
@@ -30,11 +30,6 @@ Feel free to check out the [releases](https://github.com/ARCANEDEV/LogViewer/rel
   2. [Configuration](_docs/2.Configuration.md)
   3. [Usage](_docs/3.Usage.md)
   4. [FAQ](_docs/4.FAQ.md)
-
-## Credits
-
-- [ARCANEDEV][link-author]
-- [All Contributors][link-contributors]
 
 ## PREVIEW
 

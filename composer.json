@@ -1,7 +1,7 @@
 {
     "name":        "ssswang/log-viewer",
     "description": "Provides a Log Viewer for Laravel 5",
-    "keywords":    ["arcanedev", "arcanesoft", "laravel", "log", "log viewer", "log-viewer", "logviewer"],
+    "keywords":    ["laravel", "log", "log viewer", "log-viewer", "logviewer"],
     "authors": [
         {
             "name":     "ARCANEDEV",
@@ -27,11 +27,6 @@
             "Arcanedev\\LogViewer\\": "src/"
         },
         "files": ["constants.php", "helpers.php"]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Arcanedev\\LogViewer\\Tests\\": "tests/"
-        }
     },
     "minimum-stability": "dev",
     "prefer-stable" : true
