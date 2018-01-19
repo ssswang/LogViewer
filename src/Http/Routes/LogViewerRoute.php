@@ -23,8 +23,8 @@ class LogViewerRoute extends RouteRegistrar
     public function map()
     {
         $this->name('log-viewer::')->group(function () {
-            // log-viewer::dashboard
-            $this->get('/', 'LogViewerController@index')->name('dashboard');
+            // log-viewer::logs.list
+            $this->get('/', 'LogViewerController@index')->name('logs.list');
 
             $this->mapLogsRoutes();
         });

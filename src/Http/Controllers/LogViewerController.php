@@ -64,11 +64,11 @@ class LogViewerController extends Controller
      */
     public function index()
     {
-        $stats     = $this->logViewer->statsTable();
-        $chartData = $this->prepareChartData($stats);
-        $percents  = $this->calcPercentages($stats->footer(), $stats->header());
+        $stats   = $this->logViewer->statsTable();
+        $headers = $stats->header();
+        $rows    = $this->paginate($stats->rows(), $request);
 
-        return $this->view('dashboard', compact('chartData', 'percents'));
+        return $this->view('logs', compact('headers', 'rows', 'footer'));
     }
 
     /**
